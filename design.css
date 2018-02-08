@@ -7,8 +7,6 @@ body
   width:900px;
   min-height:110px;
   margin:0 auto;
- 
-
   
   
   
@@ -19,21 +17,28 @@ body
 }
 .title
 {
+    height:100%;
   float:left;
   color:#491999;
-  font-size:70px;
+  font-size:60px;
   padding-left:15px;
-  font-family:"baloo";
-  padding-top:5px;
+  font-family:monospace;
+    width:380px;
+    display:flex;
+    align-items:center;
+ 
 }
 .add{
+    float:left;
   height:100%;
   display:flex;
   align-items:center;
   justify-content:center;
+    max-width:400px;
+    margin-right:25px;
 }
 .add input{
-  margin-right:1em;
+    margin-right:1em;
   border:none;
   background:#003000;
   outline:none;
@@ -44,7 +49,6 @@ body
   font-family:monospace;
 }
 .add button{
-  margin-right:5em;
   border:none;
   padding:0.3em;
   opacity:0.8;
@@ -65,6 +69,23 @@ body
 {
   background-color:grey;
 }
+.buts{
+    float:left;
+    display:flex;
+    flex-direction:column;
+    width:110px;
+    align-items:center;
+}
+.buts button{
+    border:none;
+    margin-top:5px;
+    cursor:pointer;
+    transition:transform 0.3s;
+}
+.buts button:hover{
+    transform:scale(1.15);
+    border:1.5px white dotted;
+}
 .one
 {
   font-size:20px;
@@ -72,22 +93,16 @@ body
   border-radius:5px;
   border-color:yellow;
   height:30px;
-  position:absolute;
-  top:5px;
-  left:1030px;
-    
+
 }
 .two
 {
-  font-size:20px;
+  font-size:20px;  
   width:80px;
   border-radius:5px;
   border-color:green;
   height:30px;
-   position:absolute;
-  top:40px;
-  left:1030px;
- 
+
 }
 .three
 {
@@ -96,20 +111,32 @@ body
   border-radius:5px;
   border-color:red;
   height:30px;
-   position:absolute;
-  top:75px;
-  left:1030px;
- 
 }
 .streams
 {
   height:130px;
   
   font-size:30px;
-  border-bottom-style:dotted;
+  border-bottom-style:solid;
   border-bottom-color:black;
  
 
+}
+.first,.second,.third{
+    transition:all 0.5s ease;
+}
+.first:hover{
+ box-shadow:50px 30px 20px #90C100; 
+    transform:scale(0.97);
+}
+.second:hover{
+ box-shadow:50px 30px 20px #E12500;  
+        transform:scale(0.97);
+
+}
+.third:hover{
+     box-shadow:50px 30px 20px black;  
+        transform:scale(0.97);
 }
 #logo
 {

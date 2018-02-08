@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var streams = ["FreeCodeCamp", "wheeze202", "comster404", "izakooo", "Shmellyorc","ESL_CSGO"];
+  var streams = ["FreeCodeCamp", "izakooo","ESL_CSGO","sodapoppin","DrDisRespectLIVE"];
   function search(){
    
   
