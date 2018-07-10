@@ -1,6 +1,7 @@
 body
 {
   background-color:#499999;
+  margin:0 auto;
 }
 .twitch{
   background-color:#000000;
@@ -84,7 +85,6 @@ body
 }
 .buts button:hover{
     transform:scale(1.15);
-    border:1.5px white dotted;
 }
 .one
 {
@@ -126,7 +126,6 @@ body
     transition:all 0.5s ease;
 }
 .first:hover{
- box-shadow:50px 30px 20px #90C100; 
     transform:scale(0.97);
 }
 .second:hover{
